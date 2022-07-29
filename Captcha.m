@@ -1,5 +1,5 @@
 
-%Captcha solver - MDP D Project Marco Dondo Unmib 2022
+%Captcha solver - Marco Dondo
 %This script uses OCR (Optical character recognition) functions. Before to
 %continue please install the "Computer Vision Toolbox" by MathWorks.
 
