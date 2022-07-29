@@ -2,7 +2,7 @@
 Matlab script to resolve captcha images
 
 <h2> Introduction </h2>
-A captcha test is designed to determine if an online user is really a human, or if it is a bot. Captcha stands for "Completely Automated Public Turing Test To Tell Computers and Humans Apart". Users often come across captcha tests on the WWW.
+A captcha test is designed to determine if an online user is really a human, or if it is a bot. Captcha stands for "Completely Automated Public Turing Test To Tell Computers and Humans Apart". Users often come across captcha tests on the web.
 This script wants to modify captcha in ordere to make it more computer readeble through Matlab language.
 
 <h2> Description</h2>
