@@ -1,16 +1,16 @@
-# Script-CaptchaBreaker
+# Captchabreaker Matlab script
 Matlab script to resolve captcha images.
 
-<h2> Introduction </h2>
+## Introduction
 A captcha test is designed to determine if an online user is really a human, or if it is a bot. Captcha stands for "Completely Automated Public Turing Test To Tell Computers and Humans Apart". Users often come across captcha tests on the web.
 This script wants to modify captcha in ordere to make it more computer readeble through Matlab language.
 
-<h2> Description</h2>
+## Description
 This project has two main goals:<br>
 1. Solve the captcha and get the string; <br>
 2. Generate a new strong captcha. <br><br>
 
-<h3>Solve the captcha and get the string </h3>
+### Solve the captcha and get the string
 It was necessary to use filter commands to remove the noise. The filters used were the median filter, for images with a lot of noise, and the order filter, for images with less noise. <br>
 <img src="imgs/img1.png" width="40%"/>
 After removing the noise from the captcha, it has been applied the binarization to obtain an image composed by only two colors (black and white). The binarization works with two different thresholds according to the image: all the pixels less than the threshold will be set to black; all the other pixels will be set to white.<br>
@@ -29,6 +29,7 @@ Random white text has been introduced in the image. White text has low level of 
 <br>
 <img src="imgs/img7.png" width="40%"/>
 <br>
-<h2> Images </h2>
+
+## Result
 <img src="imgs/img8.png" width="40%"/>
-Interface and commands
+
